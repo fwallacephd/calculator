@@ -35,9 +35,13 @@
 <body>
 
 <div class="container-fluid text-center">
-    <h2>A Simple Calculator</h2>
-    <h5>By Faith H. Wallace, Ph.D.</h5>
-    <div class="output">
+    <div class="text-center">
+       <div class="header">
+            <h2>A Simple Calculator</h2>
+            <h5>By Faith H. Wallace, Ph.D.</h5>
+       </div>
+    </div>
+    <div id="output">
         <span id="steps">0</span>
         <hr>
     </div>
@@ -64,9 +68,7 @@
         <br>
         <a class="btn btn-outline-primary bigButton digit">0</a>
         <a class="btn btn-outline-danger bigButton" id="compute">=</a>
-
     </div>
-
 
     <label>LHS: </label><p id="lhs"></p>
     <label>Operator: </label><p id="operator"></p>

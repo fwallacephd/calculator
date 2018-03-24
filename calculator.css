@@ -9,14 +9,15 @@ body {
     -o-background-size: cover;
 }
 
-h2, h5 {
+h2, h6 {
     font-family: 'Open Sans', sans-serif;
 }
 
 body {
     font-family: 'Share Tech', sans-serif;
-    background-image: url(old_mathematics.png);
+    background-image: url(old_mathematics_@2X.png);
 }
+
 
 #output {
     background-color: white;
@@ -28,4 +29,35 @@ body {
     margin-left: auto;
     margin-top: 20px;
     padding-top: 20px;
+    border-bottom: 1px solid black;
+    border: 1px solid black;
 }
+
+#calculator {
+    background-color: white;
+    width: 250px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+}
+
+button {
+    margin: 5px;
+    width: 35px;
+    height: auto;
+}
+
+#steps {
+    padding-left: 80px;
+    font-size: 2em;
+}
+
+.bigButton {
+    width: 78px;
+}
+
+

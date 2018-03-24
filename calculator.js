@@ -6,6 +6,7 @@ $(".digit").on("click", function() {
     //Original text + the digit in next line
     var collectDigitLeft = $("#lhs").text() + digitText;
     $("#lhs").text(collectDigitLeft);
+    $("#steps").text(collectDigitLeft);
     if (collectDigitLeft.length === 0) {
       collectDigitLeft = 0;
       console.log(collectDigitLeft);
@@ -15,6 +16,7 @@ $(".digit").on("click", function() {
     //Original text + the digit in line 6
     var collectDigitRight = $("#rhs").text() + digitText;
     $("#rhs").text(collectDigitRight);
+    $("#steps").text(collectDigitRight);
   }
 });
 
@@ -42,6 +44,7 @@ $("#compute").on("click", function(){
     result = leftNumber / rightNumber;
   }
   $("#result").text(result);
+  $("#steps").text(result);
 
   $(".operator").on("click", function(){
     leftNumber = result;

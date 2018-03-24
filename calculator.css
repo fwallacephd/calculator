@@ -47,19 +47,17 @@ body {
 
 button {
     margin: 5px;
+    width: 35px;
+    height: auto;
 }
 
 #steps {
-    padding-left: 120px;
+    padding-left: 80px;
     font-size: 2em;
 }
 
-.bigButton1 {
-    width: 85px;
-}
-
-.bigButton2 {
-    width: 85px;
+.bigButton {
+    width: 78px;
 }
 
 

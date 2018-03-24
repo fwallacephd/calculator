@@ -1,0 +1,82 @@
+<html>
+  <head>
+   <!--META TAGS-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="calculator" content="A Simple Calculator"/>
+
+    <title>A Simple Calculator</title>
+
+    <!-- Bootstrap, Fonts, Font Awesome, CSS -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Bootstrap-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="calculator.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Share+Tech" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container-fluid text-center">
+    <h2>A Simple Calculator</h2>
+    <h5>By Faith H. Wallace, Ph.D.</h5>
+    <div class="output">
+        <span id="steps">0</span>
+        <hr>
+    </div>
+    <div class="text-center" id="calculator">
+        <a class="btn btn-outline-danger" id="deleteAll">AC</a>
+        <a class="btn btn-outline-danger" id="backOne">CE</a>
+        <a class="btn btn-outline-primary operator">/</a>
+        <a class="btn btn-outline-primary operator">*</a>
+        <br>
+        <a class="btn btn-outline-primary digit">7</a>
+        <a class="btn btn-outline-primary digit">8</a>
+        <a class="btn btn-outline-primary digit">9</a>
+        <a class="btn btn-outline-primary operator">-</a>
+        <br>
+        <a class="btn btn-outline-primary digit">4</a>
+        <a class="btn btn-outline-primary digit">5</a>
+        <a class="btn btn-outline-primary digit">6</a>
+        <a class="btn btn-outline-primary operator">+</a>
+        <br>
+        <a class="btn btn-outline-primary digit">1</a>
+        <a class="btn btn-outline-primary digit">2</a>
+        <a class="btn btn-outline-primary digit">3</a>
+        <a class="btn btn-outline-primary operator">.</a>
+        <br>
+        <a class="btn btn-outline-primary bigButton digit">0</a>
+        <a class="btn btn-outline-danger bigButton" id="compute">=</a>
+
+    </div>
+
+
+    <label>LHS: </label><p id="lhs"></p>
+    <label>Operator: </label><p id="operator"></p>
+    <label>RHS: </label><p id="rhs"></p>
+    <label>Result: </label><p id="result"></p>
+
+
+</div>
+
+    <script src="jquery.js"></script>
+    <script src="calculator.js"></script>
+  </body>
+</html>

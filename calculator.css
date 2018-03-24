@@ -17,3 +17,15 @@ body {
     font-family: 'Share Tech', sans-serif;
     background-image: url(old_mathematics.png);
 }
+
+#output {
+    background-color: white;
+    width: 250px;
+    height: 75px;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 20px;
+}

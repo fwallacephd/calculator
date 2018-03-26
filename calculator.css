@@ -47,7 +47,7 @@ body {
 
 button {
     margin: 5px;
-    width: 35px;
+    width: 40px;
     height: auto;
 }
 
@@ -57,7 +57,10 @@ button {
 }
 
 .bigButton {
-    width: 78px;
+    width: 84px;
 }
 
+.zero {
+    margin-left: 0px;
+}
 
